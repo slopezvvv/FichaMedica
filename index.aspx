@@ -9,7 +9,16 @@
 </head>
 <body>
     <form id="form1" runat="server">
-
+        <div>
+            <asp:Label ID="LblIdPaciente" runat="server"></asp:Label><asp:TextBox ID="TxtIdPaciente" runat="server"></asp:TextBox><br />
+            <asp:Label ID="LblPNombre" runat="server"></asp:Label><asp:TextBox ID="TxtPNombre" runat="server"></asp:TextBox><br />
+            <asp:Label ID="LblSNombre" runat="server"></asp:Label><asp:TextBox ID="TxtSNombre" runat="server"></asp:TextBox><br />
+            <asp:Label ID="LblPApellido" runat="server"></asp:Label><asp:TextBox ID="TxtPApellido" runat="server"></asp:TextBox><br />
+            <asp:Label ID="LblSApellido" runat="server"></asp:Label><asp:TextBox ID="TxtSApellido" runat="server"></asp:TextBox><br />
+            <asp:Label ID="LblEdad" runat="server"></asp:Label><asp:TextBox ID="TxtEdad" runat="server"></asp:TextBox><br />
+            <asp:Label ID="LblTipoSangre" runat="server"></asp:Label><asp:DropDownList ID="DrpTipoSangre" runat="server"></asp:DropDownList><br />
+            <asp:Button ID="BtnRegistrarFicha" runat="server" />
+        </div>
         <div>
             
         </div>

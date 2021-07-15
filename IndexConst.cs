@@ -14,6 +14,7 @@ namespace FichaMedica
         private const string LBL_S_APELLIDO = "Segundo apellido";
         private const string LBL_EDAD = "Edad";
         private const string LBL_TIPO_SANGRE = "Tipo de sangre";
+        private const string LBL_BTN_REGISTRAR_FICHA = "Registrar ficha";
 
         public static string GetValue(in int index){
             switch (index)
@@ -32,6 +33,8 @@ namespace FichaMedica
                     return LBL_EDAD;
                 case 6:
                     return LBL_TIPO_SANGRE;
+                case 7:
+                    return LBL_BTN_REGISTRAR_FICHA;
                 default:
                     return string.Empty;
             }
