@@ -71,6 +71,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IEnumMisc.cs" />
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -80,6 +81,7 @@
     </Compile>
     <Compile Include="IndexConst.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TipoSangre.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

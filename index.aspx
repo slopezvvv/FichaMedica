@@ -17,7 +17,7 @@
             <asp:Label ID="LblSApellido" runat="server"></asp:Label><asp:TextBox ID="TxtSApellido" runat="server"></asp:TextBox><br />
             <asp:Label ID="LblEdad" runat="server"></asp:Label><asp:TextBox ID="TxtEdad" runat="server"></asp:TextBox><br />
             <asp:Label ID="LblTipoSangre" runat="server"></asp:Label><asp:DropDownList ID="DrpTipoSangre" runat="server"></asp:DropDownList><br />
-            <asp:Button ID="BtnRegistrarFicha" runat="server" />
+            <asp:Button ID="BtnRegistrarFicha" runat="server" OnClick="BtnRegistrarFicha_Click" />
         </div>
         <div>
             
