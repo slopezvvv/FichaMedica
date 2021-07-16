@@ -5,7 +5,7 @@ using System.Web;
 
 namespace FichaMedica
 {
-    public static class IndexConst
+    public class IndexConst : EnumMisc
     {
         private const string LBL_ID = "ID";
         private const string LBL_P_NOMBRE = "Primer nombre";
@@ -16,7 +16,8 @@ namespace FichaMedica
         private const string LBL_TIPO_SANGRE = "Tipo de sangre";
         private const string LBL_BTN_REGISTRAR_FICHA = "Registrar ficha";
 
-        public static string GetValue(in int index){
+        public IndexConst() : base() { }
+        public override string GetValue(in int index){
             switch (index)
             {
                 case 0:
@@ -38,6 +39,16 @@ namespace FichaMedica
                 default:
                     return string.Empty;
             }
+        }
+
+        public override string GetValue(in TipoDeSangreEnum index)
+        {
+            throw new NotImplementedException(M_ERR);
+        }
+
+        public override List<string> ToList()
+        {
+            throw new NotImplementedException(M_ERR);
         }
     }
 }
